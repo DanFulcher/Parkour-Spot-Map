@@ -1,0 +1,66 @@
+{
+  "LondonWalls": {
+    "name": "London Walls",
+    "position": {
+      "lat": 51.5174175,
+      "lng": -0.0926489
+    },
+    "area": "Barbican"
+  },
+  "Monkwell": {
+    "name": "Monkwell",
+    "position": {
+      "lat": 51.5181669,
+      "lng": -0.0939685
+    },
+    "area": "Barbican"
+  },
+  "Conservatory": {
+    "name": "Conservatory",
+    "position": {
+      "lat": 51.5200487,
+      "lng": -0.0932389
+    },
+    "area": "Barbican"
+  },
+  "Shakespeare Strides": {
+    "name": "Shakespeare Strides",
+    "position": {
+      "lat": 51.5217819,
+      "lng": -0.0965595
+    },
+    "area": "Barbican"
+  },
+  "Grill": {
+    "name": "Grill",
+    "position": {
+      "lat": 51.5204801,
+      "lng": -0.0942689
+    },
+    "area": "Barbican"
+  },
+  "Walkway": {
+    "name": "Walkway",
+    "position": {
+      "lat": 51.5211494,
+      "lng": -0.0944567
+    },
+    "area": "Barbican"
+  },
+  "Police Station": {
+    "name": "Police Station",
+    "position": {
+      "lat": 51.5202281,
+      "lng": -0.0952184
+    },
+    "area": "Barbican"
+  },
+  "Mega Grill": {
+    "name": "Mega Grill",
+    "position": {
+      "lat": 51.5202231,
+      "lng": -0.0963128
+    },
+    "area": "Barbican"
+  }
+}

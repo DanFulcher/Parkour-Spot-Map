@@ -1,0 +1,33 @@
+[debug] [2018-10-27T17:24:10.565Z] ----------------------------------------------------------------------
+[debug] [2018-10-27T17:24:10.567Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-27T17:24:10.567Z] CLI Version:   6.0.0
+[debug] [2018-10-27T17:24:10.567Z] Platform:      darwin
+[debug] [2018-10-27T17:24:10.567Z] Node Version:  v10.10.0
+[debug] [2018-10-27T17:24:10.568Z] Time:          Sat Oct 27 2018 18:24:10 GMT+0100 (British Summer Time)
+[debug] [2018-10-27T17:24:10.568Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-27T17:24:10.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-27T17:24:10.578Z] > authorizing via signed-in user
+[debug] [2018-10-27T17:24:10.578Z] [iam] checking project parkour-spot-map-1532782610228 for permissions ["firebase.projects.get"]
+[debug] [2018-10-27T17:24:10.580Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/parkour-spot-map-1532782610228:testIamPermissions  
+
+[debug] [2018-10-27T17:24:12.365Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-27T17:24:12.367Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/parkour-spot-map-1532782610228  
+ 
+[debug] [2018-10-27T17:24:13.505Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/danfulcher/Documents/development/parkour-spot-map'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-27T17:24:13.922Z] Fetching environment
+[debug] [2018-10-27T17:24:13.925Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/657469882610:getServerAppConfig  
+ 
+[debug] [2018-10-27T17:24:13.925Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/657469882610/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-27T17:24:16.090Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-27T17:24:16.090Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-27T17:24:16.257Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2018-10-27T17:24:17.134Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
